@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body        
+
+        input[type="submit"], .next-button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover, .next-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<h1><center><u>cyber security department</u></h1>
+<h2><center>student information form</h2>
+
+
+
+
+<form action="/action_page.php" style="text-align:center">
+    <label for="fname">Name:</label>
+    <input type="text" id="fname" name="fname" value=""><br>
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname" value=""><br>
+    <label for="prn">PRN Number:</label>
+    <input type="text" id="prn" name="prn" value=""><br>
+</form>
+
+<form>
+    <p><b>Studying in Year</b></p>
+    <input type="radio" id="first-year" name="year" value="first-year">
+    <label for="first-year">1st Year</label><br>
+    <input type="radio" id="second-year" name="year" value="second-year">
+    <label for="second-year">2nd Year</label><br>
+    <input type="radio" id="third-year" name="year" value="third-year">
+    <label for="third-year">3rd Year</label><br>
+    <input type="radio" id="fourth-year" name="year" value="fourth-year">
+    <label for="fourth-year">4th Year</label><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<center><button class="next-button" onclick="window.location.href='file:///C:/Users/Ashish/Documents/p2.html';">Next Page</button>
+
+</body>
+</html>
+
+
+
+
