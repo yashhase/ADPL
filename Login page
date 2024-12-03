@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html><head>
+
+<body>
+
+<h1><center><u>cyber security department</u></h1>
+<h2><center>student information form</h2>
+
+<form action="/action_page.php"style="text-align:center">
+<label for="fname">name:   </label>
+ <input type="text" id="fname" name="fname" value=""><br>
+ <label for="lname">Last name:</label>
+ <input type="text" id="lname" name="lname" value=""><br>
+ <label for="prn">prn number:</label>
+<input type="text" id="prn" name="prn" value=""><br>
+
+</form>
+
+<form >
+<p><b>studying in year</b></p>
+<input type="radio" id="first year" name="first year" value="first year">
+<label for=" first year">1st year</label><br>
+<input type="radio" id="second year" name="fav_language" value="second year">
+<label for="second year">2nd year</label><br>
+<input type="radio" id="third year" name="fav_language" value="third year">
+<label for="third year">3rd year</label><br>
+<input type="radio" id="forth year" name="fav_language" value="forth year">
+<label for="forth year">4th year</label><br> <br><input type="submit" value="Submit">
+</form>
+</body>
+</html>
